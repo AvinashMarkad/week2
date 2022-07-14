@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("#div1").slideDown();
+    })
+    $("#btn2").click(function(){
+        $("#div1").slideUp();
+    })
+    $("#btn3").click(function(){
+        $("#div1").slideToggle();
+    })
+})
